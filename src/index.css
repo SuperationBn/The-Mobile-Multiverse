@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+  outline: none;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+}
+
+p {
+  line-height: 1.6;
+}
+
+button {
+  border-radius: 50PX;
+  border: 1px solid transparent;
+  padding: 1.4rem 2.9rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: inherit;
+  /* color: rgba(240, 248, 255, 0.887); */
+  color: aliceblue;
+  background-color: #1f74fe;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background-color: #0b4fc0;
+}
+
+img {
+  max-width: 100%;
+}
+
+#root {
+  width: 100%;
+}
+
+@media (max-width: 769px) {
+  html {
+    font-size: 56%;
+  }
+}
